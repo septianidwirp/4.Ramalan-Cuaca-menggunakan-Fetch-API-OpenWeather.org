@@ -1,0 +1,117 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url("../asset/wal.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jdl {
+    -webkit-text-stroke: 1px rgb(221, 46, 221);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.group-name {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: justify;
+    /* color: rgb(221, 46, 221); */
+    color: #DAD4F7;
+
+}
+
+.purple {
+    color: #DAD4F7;
+}
+
+.temp {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.description {
+    font-size: 15px;
+}
+
+.row {
+    background-color: black;
+    border: 4px solid #A401D5;
+    border-radius: 2rem;
+
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 15px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+/*dektop versi*/
+@media (min-width: 992px) {
+    body {
+        background: rgba(0, 0, 0, 0.7) url("../asset/wal.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .jdl {
+        -webkit-text-stroke: 1px rgb(221, 46, 221);
+        font-weight: bold;
+        font-size: 55px;
+    }
+
+    .group-name {
+        margin-top: 4rem;
+        margin-left: 20rem;
+        font-size: 20px;
+        text-align: justify;
+        /* color: rgb(221, 46, 221); */
+        color: #DAD4F7;
+
+    }
+
+    .purple {
+        color: #DAD4F7;
+    }
+
+    .temp {
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .row {
+        background-color: black;
+        border: 4px solid #A401D5;
+        border-radius: 10px;
+    }
+
+    .search-bar {
+        border: none;
+        outline: none;
+        padding: 0.4em 1em;
+        border-radius: 24px;
+        background: #7c7c7c2b;
+        color: white;
+        font-family: inherit;
+        font-size: 105%;
+        width: calc(100% - 100px);
+    }
+}
